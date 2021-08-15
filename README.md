@@ -1,5 +1,7 @@
 # tern
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/pkorobeinikov/tern)](https://goreportcard.com/report/github.com/pkorobeinikov/tern)
+
 > The missing ternary shell operator for humans
 
 Just need some ternary support in shell automation.
