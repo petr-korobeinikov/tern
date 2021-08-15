@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
 
 	tern "tern/internal"
@@ -11,7 +10,7 @@ import (
 func main() {
 	res, err := tern.Run(os.Args[1:])
 	if err != nil {
-		log.Fatalln(err)
+		_, _ = fmt.Fprintln(os.Stderr, err)
 	}
-	fmt.Println(res)
+	_, _ = fmt.Fprintln(os.Stdout, res)
 }
